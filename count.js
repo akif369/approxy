@@ -1,5 +1,5 @@
 const countdown = () => {
-    const countDate = new Date("September 25, 2021 10:00:00").getTime()
+    const countDate = new Date("September 30, 2021 10:00:00").getTime()
     const now = new Date().getTime();
     const gap = countDate - now;
     
@@ -25,14 +25,11 @@ const countdown = () => {
 }
 
 const dot = () => {
-
-
     let wait = document.getElementById("dot");
     if(wait.innerHTML.length > 3)
         wait.innerHTML ="";
     else
         wait.innerHTML += ".";
 }
-
-setInterval(dot,500);
 setInterval(countdown,1000);
+setInterval(dot,500);
