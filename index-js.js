@@ -1,4 +1,3 @@
-//writing here
 let typed = "";
 const element = document.querySelector(".edit");
 
