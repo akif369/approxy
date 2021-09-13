@@ -25,7 +25,7 @@ function startType(pun, index) {
 
 function getRandomPun() {
   const puns = [
-    "Developing.","Designing.","Creating.","Building."
+    "Designing.","Creating.","Building."
   ];
   const index = Math.floor(Math.random() * puns.length);
 
